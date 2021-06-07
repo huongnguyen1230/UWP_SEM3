@@ -26,10 +26,7 @@ namespace Lab3.Pages
         {
             this.InitializeComponent();
         }
-        protected async override void OnNavigatedTo(NavigationEventArgs e)
-        {
-            string msg = e.Parameter as string;
-            Title.Text = msg;
-        }
+
+       
     }
 }

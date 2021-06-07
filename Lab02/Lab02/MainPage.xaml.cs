@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Lab02.Models;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -28,10 +29,8 @@ namespace Lab02
         }
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string toEmail = input1.Text;
-            string content = input3.Text;
-            string title = input2.Text;
-            TxtBlock.Text += toEmail + "\n" + title + "\n" + content + "\n";
+            User user = new User(Name, Email, Content);
+            Email.Items.Add(user);
         }
     }
 }
