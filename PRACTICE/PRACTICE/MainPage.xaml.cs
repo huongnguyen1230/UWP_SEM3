@@ -29,7 +29,7 @@ namespace PRACTICE
         {
             this.InitializeComponent();
         }
-        public void Page()
+        public void PageEx()
         {
             Root el = JsonConvert.DeserializeObject<Root>(File.ReadAllText("employee.json"));
             EmployeeList.ItemsSource = el.EmployeeLists;

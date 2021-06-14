@@ -12,8 +12,8 @@
     <Grid>
         <TextBlock Text="EmployeeList" FontWeight="Bold" Margin="20,50"/>
         <ListView x:Name="EmployeeList">
-            <ListView.ItemTemplate>
-                <DataTemplate x:DataType="models:Employee">
+            <ListView.ItemTemplate >
+                <DataTemplate x:DataType="models:Employee" >
                     <RelativePanel>
                         <TextBlock x:Name="Name" Text="{x:Bind Name}" Margin="10"/>
                         <TextBlock x:Name="Role" Text="{x:Bind Role}" RelativePanel.RightOf="Name" Margin="10"/>
