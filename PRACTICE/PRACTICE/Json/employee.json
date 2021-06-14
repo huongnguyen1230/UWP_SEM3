@@ -3,17 +3,17 @@
     {
       "name": "Peter Parker",
       "role": "Developer",
-      "birthyear": "1990"
+      "Birthyear": 1990
     },
     {
       "name": "Tom Hank",
       "role": "Tester",
-      "birthyear": "1991"
+      "Birthyear": 1991
     },
     {
       "name": "Mary Jane",
       "role": "QA",
-      "birthyear": "1994"
+      "Birthyear": 1994
     }
   ]
 }

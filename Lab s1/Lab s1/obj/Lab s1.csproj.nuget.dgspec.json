@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SEM03\\Lab s1\\Lab s1\\Lab s1.csproj": {}
+    "D:\\SEM3\\UWP_SEM3\\Lab s1\\Lab s1\\Lab s1.csproj": {}
   },
   "projects": {
-    "D:\\SEM03\\Lab s1\\Lab s1\\Lab s1.csproj": {
+    "D:\\SEM3\\UWP_SEM3\\Lab s1\\Lab s1\\Lab s1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SEM03\\Lab s1\\Lab s1\\Lab s1.csproj",
+        "projectUniqueName": "D:\\SEM3\\UWP_SEM3\\Lab s1\\Lab s1\\Lab s1.csproj",
         "projectName": "Lab s1",
-        "projectPath": "D:\\SEM03\\Lab s1\\Lab s1\\Lab s1.csproj",
+        "projectPath": "D:\\SEM3\\UWP_SEM3\\Lab s1\\Lab s1\\Lab s1.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\SEM03\\Lab s1\\Lab s1\\obj\\",
+        "outputPath": "D:\\SEM3\\UWP_SEM3\\Lab s1\\Lab s1\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
